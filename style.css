@@ -41,6 +41,9 @@ h2 {
 h3 {
   font-weight: lighter;
 }
+
+
+
 #homepage {
   color:#31aa65;
 }
@@ -57,25 +60,24 @@ ul li a{
   text-decoration: none;
   padding:20px;
 }
+
+
+
 .largeurbanner {
   background-image: url(banner.png);
   background-repeat: no-repeat;
   background-position: center;
   background-size:cover;
   background-color: #31aa65;
-
 }
 .largeur {
   background-color: #31aa65;
-
 }
 .largeurblanc {
   background-color:#eeeeee;
-
 }
 .banner {
   color:#ffffff;
-
 }
 .photo {
   display:inline-block;
@@ -98,9 +100,11 @@ span img {
 .sectionbis {
   color:#ffffff;
 }
+
+
+
 #button {
   padding:5%;
-  text-decoration: none;
 }
 button {
   border-radius: 5px;
@@ -116,7 +120,7 @@ button a {
 #gris {
   color:#fff;
   background-color: #2b3f48;
-  text-decoration: none;
+
 }
 #vert {
   color:#fff;
@@ -126,6 +130,9 @@ button a {
   color:#31aa65;
   background-color: #fff;
 }
+
+
+
 p {
   /*padding: 5%;*/
   word-spacing: 3px;
