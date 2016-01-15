@@ -1,68 +1,61 @@
-* { 
+* {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
   padding: 0;
   margin: 0;
+  font-family: "News Cycle", sans-serif;
+  font-size: 1em;
 }
 
 .clear {
   clear: both;
 }
-    
 body {
-  font-family: 'News Cycle', sans-serif;
-  font-size: 17px;
   background-color: #eeeeee;
 }
-
 .bloc-centre {
-  width: 1000px;
+  max-width: 1000px;
   margin: auto;
+  /*padding: 3%;*/
 }
 
 header {
-  height: 100px;
+  max-width: 1000px;
+  margin:auto;
 }
 
 h1 {
   float: left;
-  font-size: 55px;
+  font-size: 2em;
   color: #2b3f48;
-  font-weight: lighter;
+  padding-bottom: 2%;
 }
-
 main {
   text-align: center;
 }
-
 h2 {
-  font-size: 55px;
-  padding: 25px;
+  font-size: 3.2em;
+  padding: 2%;
 }
-
 h3 {
   font-weight: lighter;
 }
-
 #homepage {
   color:#31aa65;
 }
 ul {
   list-style-type: none;
   float: right;
-  margin-top: 25px;
+  margin-top: 2%;
 }
 ul li {
   float: left;
 }
-
 ul li a{
   color: #2b3f48;
   text-decoration: none;
   padding:20px;
-
-
 }
 .largeurbanner {
   background-image: url(banner.png);
@@ -78,56 +71,67 @@ ul li a{
 }
 .largeurblanc {
   background-color:#eeeeee;
+
 }
 .banner {
-  opacity: 50%;
-  height:825px;
   color:#ffffff;
+
 }
 .photo {
   display:inline-block;
-  margin-bottom: 30px;
 }
+
+@media (max-width: 480px) {
+  .photo {
+    display: none;
+  }
+}
+
 span img {
   border-radius: 100%;
-  padding: 40px;
-  width:250px;
-  margin-top:110px;
-
+  padding: 4%;
+  width:30%;
 }
-
 .sectionone {
   color: #2b3f48;
 }
 .sectionbis {
   color:#ffffff;
 }
-section {
-  height: 620px;
+#button {
+  padding:5%;
+  text-decoration: none;
 }
 button {
-  width: 180px;
-  height: 47px;
-  border-radius: 10px;
+  border-radius: 5px;
   border: 0px;
-  margin-top: 15px;
+  padding: 1%;
+  padding-left: 4%;
+  padding-right: 4%;
+}
+button a {
+  text-decoration: none;
+  color:inherit;
 }
 #gris {
   color:#fff;
   background-color: #2b3f48;
+  text-decoration: none;
 }
 #vert {
   color:#fff;
   background-color: #31aa65;
-  margin-top: 30px;
 }
 #blanc {
   color:#31aa65;
   background-color: #fff;
-  margin-top: 30px;
 }
 p {
-  padding: 50px;
+  /*padding: 5%;*/
   word-spacing: 3px;
   line-height: 30px;
+}
+footer {
+  text-align: center;
+  padding: 4%;
 }
